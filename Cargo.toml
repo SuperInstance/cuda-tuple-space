@@ -2,7 +2,12 @@
 name = "cuda-tuple-space"
 version = "0.1.0"
 edition = "2021"
-description = "Tuple space — generative communication via pattern-matching tuples, Linda coordination model for agent fleets"
+description = "Linda coordination — out/rd/in, field matching, TTL"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Lucineer/cuda-tuple-space"
+readme = "README.md"
+keywords = ["ai", "fleet", "agent", "rust"]
+categories = ["science"]
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
